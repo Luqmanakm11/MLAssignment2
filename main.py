@@ -5,11 +5,11 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.preprocessing import StandardScaler
 
 # Load the saved MLP model
-model_filename = 'C:\\Users\\User\\PycharmProjects\\MLAssignmentWithUI\\venv\\Tumor-Prediction\\bestmlpmodel (1).pkl'
+model_filename = 'bestmlpmodel (1).pkl'
 bestmlp = joblib.load(model_filename)
 
 # Load the saved scaler
-scaler_filename = 'C:\\Users\\User\\PycharmProjects\\MLAssignmentWithUI\\venv\\Tumor-Prediction\\scaler (1).pkl'
+scaler_filename = 'scaler (1).pkl'
 scaler = joblib.load(scaler_filename)
 
 # Define the features
